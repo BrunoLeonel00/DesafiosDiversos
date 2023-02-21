@@ -1,0 +1,5 @@
+salario = float(input('digite seu salario: R$'))
+aumento = int(input('digite a porcentagem de aumneto que ia receber:'))
+novo = salario + (salario * aumento / 100)
+print('Parabens!!')
+print('com o aumento de 15% seu salario passou a ser R$\033[35m{:.2f}\033[m'.format(novo))
